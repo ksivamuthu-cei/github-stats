@@ -87,4 +87,4 @@ async function getAllPullRequestsInOrg(org, since) {
 }
 
 const since = new Date('2024-01-01').toISOString();
-getAllPullRequestsInOrg('dapr', since); 
+getAllPullRequestsInOrg('<org>', since); 
